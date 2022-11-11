@@ -1,0 +1,103 @@
+html,
+body {
+  height: 100%;
+  font-family: "Robato Slab", serif;
+}
+
+.global-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ddd6d6;
+  /* background: url("http://closings.koamtv.com/Graphics/TopImage.png");
+  background-image: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
+}
+.box-shadow {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+form {
+  padding-top: 10px;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.card-title {
+  font-weight: 300;
+}
+
+.btn {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background-color: black;
+}
+
+.login-form {
+  width: 330px;
+  margin: 20px;
+}
+
+.sign-up {
+  text-align: center;
+  padding: 20px 0 0;
+}
+
+.alert {
+  margin-bottom: -30px;
+  font-size: 13px;
+  margin-top: 20px;
+}
+.logo {
+  margin-bottom: 20px;
+}
+.sign-in-button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.input {
+  border-radius: 5px;
+  border: 1px solid grey;
+  width: 15rem;
+}
+.table-shadow {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.btn-shadow {
+  box-shadow: 0 0 10px;
+}
+.nav-link {
+  display: flex;
+  position: relative;
+  float: right;
+  justify-content: flex-end;
+}
+.nav-link {
+  margin-right: 300px;
+  color: white;
+}
+
+.navbar-nav a:hover {
+  color: rgb(1, 121, 233);
+}
+.navbar-nav a {
+  color: white;
+}
+.btn-orange {
+  background-color: rgb(233, 152, 1);
+}
+.btn:hover {
+  background-color: black;
+}
+.error {
+  background: #ee8e8e;
+  color: rgb(117, 21, 21);
+  padding: 10px;
+  width: 95%;
+  border-radius: 5px;
+  text-align: center;
+}
