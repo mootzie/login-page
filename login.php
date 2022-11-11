@@ -103,7 +103,7 @@ if (isset($_POST['uname']) && isset($_POST['pword'])) {
         $("#datepicker").datepicker();
     });
     </script>
-    <title>Document</title>
+    <title>Koam Closing System</title>
 </head>
 
 <body>
