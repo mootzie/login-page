@@ -110,8 +110,7 @@ if (isset($_POST['uname']) && isset($_POST['pword'])) {
     <!-- bg-primary -->
     <nav class="navbar navbar-expand-sm navbar-light " style="background-color: rgb(255, 154, 1);">
         <div class="container-fluid" style="background-color: rgb(255, 154, 1);">
-            <a class="navbar-brand" href="./index.html"><img src="./koam-logo.png" alt="" width="200px"
-                    style="margin-left: 300px;"></a>
+            <a class="navbar-brand" href="index.php"><img src="./koam-logo.png" alt="" width="200px"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarID"
                 aria-controls="navbarID" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon">
@@ -127,7 +126,7 @@ if (isset($_POST['uname']) && isset($_POST['pword'])) {
     </nav>
 
     <div class="btn">
-        <a class="btn__link" href="#">
+        <a class="btn__link" href="index.php">
             <div class="btn__sq"></div>
         </a>
     </div>

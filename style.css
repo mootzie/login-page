@@ -54,6 +54,7 @@ form {
 }
 .logo {
   margin-bottom: 20px;
+  margin-left: 0px;
 }
 .sign-in-button {
   margin-top: 20px;
@@ -77,10 +78,14 @@ form {
   justify-content: flex-end;
 }
 .nav-link {
-  margin-right: 300px;
+  /* q */
   color: white;
 }
-
+@media (max-width: 500px) {
+  .nav-link {
+    margin-right: 20px;
+  }
+}
 .navbar-nav a:hover {
   color: rgb(1, 121, 233);
 }
@@ -100,4 +105,7 @@ form {
   width: 95%;
   border-radius: 5px;
   text-align: center;
+}
+.navbar-brand {
+  /* margin-left: 60px; */
 }
